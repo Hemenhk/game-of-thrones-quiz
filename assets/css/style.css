@@ -14,10 +14,40 @@ h1 {
 
 }
 
+/* Home Page */
+
 .container {
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.home-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* home button styling */ 
+
+.btn {
+    font-size: 4rem;
+    padding: 1rem 0;
+    margin-top: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    color: #fafafa;
+    background: #f00;
+    border-radius: 30px;
+}
+
+.btn:hover {
+    border: 1px solid #fafafa;
+    background: #fafafa;
+    color: #f00;
+    transition: 1s;
 }
