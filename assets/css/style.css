@@ -1,8 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 * {
     box-sizing: border-box;
     margin: 0 auto;
-    font-size: 0.5rem;
-    font-family: ;
+    font-size: 50%;
+    font-family: 'Righteous', sans-serif;
+    background: #010101;
+}
+
+h1 {
+    font-size: 6rem;
+    color: #fafafa;
+
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
