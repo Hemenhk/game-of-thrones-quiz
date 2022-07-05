@@ -60,11 +60,23 @@ getNewQuestions = () => {
         localStorage.setItem('mostRecentScore', score);
 
         return window.location.assign('/end.html');
-
+}
         questionCount++;
         progressText.innerText = `Question ${questionCount} of ${MAX_QUESTIONS}`;
         progressBarFull.style.width = `${(questionCount/MAX_QUESTIONS) * 100}%`;
 
         const questionsIndex = Math.floor(Math.randon() * availableQuestions.length);
-    }
+        currentQuestions = availableQuestions[questionsIndex];
+        questions.innerText = currentQuestions.question;
+
+        choices.forEach(choice => {
+            const numner = choice.dataset ['number']
+            choice.innerText = currentQuestions ['choice + number']
+        })
+
+        availableQuestions.splice(questionsIndex, 1);
+
+        acceptedAnswers = true;
+    
 }
+
