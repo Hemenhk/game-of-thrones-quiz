@@ -10,7 +10,7 @@
 
 body {
     color: #fafafa;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.2), rgba(4, 9, 30, 0.2)), url('../images/gameofthronesbackground.jpg');
+    background: linear-gradient(rgba(4, 9, 30, 0.2), rgba(4, 9, 30, 0.2)), url('../images/gameofthronesbackground.jpg') no-repeat center center;
 }
 
 h1 {
