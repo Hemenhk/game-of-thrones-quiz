@@ -5,11 +5,11 @@
     margin: 0 auto;
     font-size: 50%;
     font-family: 'Righteous', sans-serif;
-    background: #010101;
 }
 
 body {
     color: #fafafa;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.2), rgba(4, 9, 30, 0.2)), url('../images/gameofthronesbackground.jpg');
 }
 
 h1 {
@@ -66,16 +66,18 @@ h1 {
 .choice-contnr1 {
     width: 100%;
     background: #f00;
-    border-radius: 15px;
+    border-radius: 5px;
     margin-bottom: 10px;
     font-size: 4rem;
     display: flex;
+    min-width: 30rem;
+    transition: 0.5s;
 }
 
 .choice-contnr2 {
     width: 100%;
     background: #ac7328;
-    border-radius: 15px;
+    border-radius: 5px;
     margin-bottom: 10px;
     font-size: 4rem;
     display: flex;
@@ -84,7 +86,7 @@ h1 {
 .choice-contnr3 {
     width: 100%;
     background: #409c37;
-    border-radius: 15px;
+    border-radius: 5px;
     margin-bottom: 10px;
     font-size: 4rem;
     display: flex;
@@ -93,9 +95,15 @@ h1 {
 .choice-contnr4 {
     width: 100%;
     background: #1558cb;
-    border-radius: 15px;
+    border-radius: 5px;
     margin-bottom: 10px;
     font-size: 4rem;
     display: flex;
 }
 
+/* hover effect for choice buttons */
+
+.choice-contnr1:hover {
+    box-shadow: 0 0 20px 0px rgb(255, 0, 0, 0.2);
+
+}
