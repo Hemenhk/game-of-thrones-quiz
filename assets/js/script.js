@@ -45,7 +45,7 @@ let questions = [
     }, 
 ]
 
-const SCORE = 100;
+const SCORE = 25;
 const MAX_QUESTIONS = 4;
 
 runGame = () => {
@@ -80,3 +80,18 @@ getNewQuestions = () => {
     
 }
 
+choices.forEach(choice => {
+    choice.addEventlListener('click', e => {
+        if(!acceptedAnswers) return;
+
+        acceptedAnswers = false;
+        const selectedChoice = e.target;
+        const selectAnswer = selectedChoice.dataset ['number'];
+
+        let classToApply = selectAnswer == currentQuestions.answer ? 'correct' : 'incorrect';
+
+        if(classToApply === 'correct') {
+            incrementScore(SCORE)
+        }
+    })
+})
