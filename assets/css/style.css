@@ -2,7 +2,8 @@
 
 * {
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
     font-size: 50%;
     font-family: 'Righteous', sans-serif;
 }
@@ -40,6 +41,14 @@ h1 {
 .flex-center {
     justify-content: center;
     align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.hidden {
+    display: none;
 }
 /* home button styling */ 
 
@@ -144,19 +153,19 @@ h1 {
 /* hover effect for choice buttons credited to Brian Design */
 
 .choice-contnr1:hover {
-    box-shadow: inset 300px 0 0 0 #ad12cd;
+    box-shadow: inset 700px 0 0 0 #ad12cd;
 }
 
 .choice-contnr2:hover {
-    box-shadow: inset 300px 0 0 0 #ad12cd;
+    box-shadow: inset 700px 0 0 0 #ad12cd;
 }
 
 .choice-contnr3:hover {
-    box-shadow: inset 300px 0 0 0 #ad12cd;
+    box-shadow: inset 700px 0 0 0 #ad12cd;
 }
 
 .choice-contnr4:hover {
-    box-shadow: inset 300px 0 0 0 #ad12cd;
+    box-shadow: inset 700px 0 0 0 #ad12cd;
 }
 
 .choice-prefix {
@@ -180,8 +189,12 @@ h1 {
 /* Screen display */
 
 #scrn {
-    display: flex;
     justify-content: space-between;
+}
+
+.scrn-prefix {
+    text-align: center;
+    font-size: 2rem;
 }
 
 @media screen and (max-width: 850px) {
