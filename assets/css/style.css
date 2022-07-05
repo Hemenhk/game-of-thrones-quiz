@@ -8,6 +8,10 @@
     background: #010101;
 }
 
+body {
+    color: #fafafa;
+}
+
 h1 {
     font-size: 6rem;
     color: #fafafa;
