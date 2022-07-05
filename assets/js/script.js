@@ -44,3 +44,13 @@ let questions = [
         answer: 2,
     }, 
 ]
+
+const SCORE = 100;
+const MAX_QUESTIONS = 4;
+
+runGame = () => {
+    questionCount = 0;
+    score = 0;
+    availableQuestions = [...questions];
+    getNewQuestions { }
+}
