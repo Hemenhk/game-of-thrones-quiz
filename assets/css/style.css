@@ -60,8 +60,13 @@ h1 {
 
 .center {
     justify-content: center;
-    text-align: center;
 }
+
+.quiz-column {
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* hover effect of buttons are credited to Brian Design */
 
@@ -156,6 +161,19 @@ h1 {
 .screen-prefix {
     text-align: center;
     font: 2rem;
+}
+
+.scrn-main-text {
+    text-align: center;
+}
+
+.progressBar {
+    width: 320px;
+    height: 48px;
+    border: 3.2px solid #0bdf24;
+    margin-top: 24px;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
 /* screen sizes 850px and smaller */
