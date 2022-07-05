@@ -145,53 +145,12 @@ h1 {
     box-shadow: inset 300px 0 0 0 #ad12cd;
 }
 
-.correct-answ {
-    background: linear-gradient(32deg, rgba(11,223,36) 0%, rgb(42, 232, 111) 100%);
+.choice-prefix {
+    padding: 32px 40px;
+    color: #fafafa;
 }
 
-.incorrect-answ {
-    background: linear-gradient(32deg, rgba(230,29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
-}
-
-#scrn {
-    display: flex;
-    justify-content: center;
-}
-
-.screen-prefix {
-    text-align: center;
-    font: 2rem;
-}
-
-.scrn-main-text {
-    text-align: center;
-}
-
-.progressBar {
-    width: 320px;
-    height: 48px;
-    border: 3.2px solid #0bdf24;
-    margin-top: 24px;
-    border-radius: 20px;
-    overflow: hidden;
-}
-
-/* screen sizes 850px and smaller */
-
-@media screen and (max-width: 850px){
-    .choice-contnr1 {
-        min-width: 100px
-    }
-
-    .choice-contnr2 {
-        min-width: 100px;
-    }
-
-    .choice-contnr3 {
-        min-width: 100px;
-    }
-
-    .choice-contnr4 {
-        min-width: 100px;
-    }
+.choice-text {
+    padding: 32px;
+    width: 100%;
 }
