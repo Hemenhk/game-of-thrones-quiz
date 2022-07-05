@@ -155,6 +155,14 @@ h1 {
     width: 100%;
 }
 
+.correct {
+    background: linear-gradient(32deg, green) 0%;
+}
+
+.incorrect {
+    background: linear-gradient(32deg, red);
+}
+
 @media screen and (max-width: 850px) {
     .choice-contnr1 {
         min-width: 100px;
