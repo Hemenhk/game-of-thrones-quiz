@@ -66,7 +66,7 @@ h1 {
 /* hover effect of buttons are credited to Brian Design */
 
 .choice-contnr1 {
-    width: 200px;
+    width: 300px;
     background-color: #f00;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -81,7 +81,7 @@ h1 {
 }
 
 .choice-contnr2 {
-    width: 100%;
+    width: 300px;
     background: #ac7328;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -95,7 +95,7 @@ h1 {
 }
 
 .choice-contnr3 {
-    width: 100%;
+    width: 300px;
     background: #409c37;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -109,7 +109,7 @@ h1 {
 }
 
 .choice-contnr4 {
-    width: 100%;
+    width: 300px;
     background: #1558cb;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -138,4 +138,42 @@ h1 {
 
 .choice-contnr4:hover {
     box-shadow: inset 300px 0 0 0 #ad12cd;
+}
+
+.correct-answ {
+    background: linear-gradient(32deg, rgba(11,223,36) 0%, rgb(42, 232, 111) 100%);
+}
+
+.incorrect-answ {
+    background: linear-gradient(32deg, rgba(230,29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
+}
+
+#scrn {
+    display: flex;
+    justify-content: center;
+}
+
+.screen-prefix {
+    text-align: center;
+    font: 2rem;
+}
+
+/* screen sizes 850px and smaller */
+
+@media screen and (max-width: 850px){
+    .choice-contnr1 {
+        min-width: 100px
+    }
+
+    .choice-contnr2 {
+        min-width: 100px;
+    }
+
+    .choice-contnr3 {
+        min-width: 100px;
+    }
+
+    .choice-contnr4 {
+        min-width: 100px;
+    }
 }
