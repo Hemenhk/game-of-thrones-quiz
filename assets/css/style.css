@@ -63,3 +63,39 @@ h1 {
     text-align: center;
 }
 
+.choice-contnr1 {
+    width: 100%;
+    background: #f00;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-size: 4rem;
+    display: flex;
+}
+
+.choice-contnr2 {
+    width: 100%;
+    background: #ac7328;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-size: 4rem;
+    display: flex;
+}
+
+.choice-contnr3 {
+    width: 100%;
+    background: #409c37;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-size: 4rem;
+    display: flex;
+}
+
+.choice-contnr4 {
+    width: 100%;
+    background: #1558cb;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-size: 4rem;
+    display: flex;
+}
+
