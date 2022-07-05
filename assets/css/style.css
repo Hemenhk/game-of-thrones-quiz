@@ -27,6 +27,7 @@ h1 {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    max-width: 80rem;
     padding: 1.5rem;
 }
 
@@ -35,6 +36,11 @@ h1 {
     flex-direction: column;
 }
 
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
 /* home button styling */ 
 
 .btn {
@@ -64,6 +70,7 @@ h1 {
 
 .quiz-column {
     display: flex;
+    width: 80%;
     flex-direction: column;
 }
 
@@ -71,13 +78,14 @@ h1 {
 /* hover effect of buttons are credited to Brian Design */
 
 .choice-contnr1 {
-    width: 300px;
+    width: 100%;
     background-color: #f00;
     border-radius: 5px;
     margin-bottom: 10px;
+    flex-basis: 100%;
     font-size: 4rem;
     display: flex;
-    min-width: 30rem;
+    min-width: 80rem;
     transition: ease-out 0.5s;
     outline: none;
     color: #fafafa;
@@ -86,12 +94,14 @@ h1 {
 }
 
 .choice-contnr2 {
-    width: 300px;
+    width: 100%;
     background: #ac7328;
     border-radius: 5px;
     margin-bottom: 10px;
+    flex-basis: 100%;
     font-size: 4rem;
     display: flex;
+    min-width: 80rem;
     transition: ease-out 0.5s;
     outline: none;
     color: #fafafa;
@@ -100,12 +110,14 @@ h1 {
 }
 
 .choice-contnr3 {
-    width: 300px;
+    width: 100%;
     background: #409c37;
     border-radius: 5px;
     margin-bottom: 10px;
+    flex-basis: 100%;
     font-size: 4rem;
     display: flex;
+    min-width: 80rem;
     transition: ease-out 0.5s;
     outline: none;
     color: #fafafa;
@@ -114,12 +126,14 @@ h1 {
 }
 
 .choice-contnr4 {
-    width: 300px;
+    width: 100%;
     background: #1558cb;
     border-radius: 5px;
     margin-bottom: 10px;
+    flex-basis: 100%;
     font-size: 4rem;
     display: flex;
+    min-width: 80rem;
     transition: ease-out 0.5s;
     outline: none;
     color: #fafafa;
@@ -161,6 +175,13 @@ h1 {
 
 .incorrect {
     background: linear-gradient(32deg, red);
+}
+
+/* Screen display */
+
+#scrn {
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 850px) {
