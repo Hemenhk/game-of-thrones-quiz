@@ -16,6 +16,31 @@ let questions = [
         choice1: 'Winterfell',
         choice2: 'Casterly Rock',
         choice3: 'Riverrun',
-        choice4: 'The Eyrie'
+        choice4: 'The Eyrie',
+        answer: 3,
+    }, 
+    {
+        question: 'What is the valyrian steel sword given to Brienne called?',
+        choice1: 'Ice',
+        choice2: 'Oathkeeper',
+        choice3: 'Longclaw',
+        choice4: 'Heartsbane',
+        answer: 2,
     }
+    {
+        question: 'What are the words of house Baratheon?',
+        choice1: 'Ours Is The Fury',
+        choice2: 'Hear Me Roar',
+        choice3: 'Unbound, Unbent, Unbroken',
+        choice4: 'Our Blades Are Sharp',
+        answer: 1,
+    }, 
+    {
+        question: 'What kingdom do the Tyrells rule over?',
+        choice1: 'The North',
+        choice2: 'The Reach',
+        choice3: 'The Stormlands',
+        choice4: 'The Iron Islands',
+        answer: 2,
+    }, 
 ]
